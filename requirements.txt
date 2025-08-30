@@ -1,15 +1,21 @@
-streamlit
-spacy
-pandas
-numpy
-scikit-learn
-streamlit
-spacy
-pandas
-numpy
-scikit-learn
-nltk
-matplotlib
-seaborn
-tensorflow==2.13.0
-pickle-mixin
+# Core ML / NLP
+tensorflow>=2.20.0        # Supports Python 3.13
+scikit-learn>=1.7.1
+spacy>=3.8.7
+nltk>=3.9.1
+
+# Data manipulation & visualization
+numpy>=2.3.2
+pandas>=2.3.2
+matplotlib>=3.10.6
+seaborn>=0.13.2
+
+# Web / UI
+streamlit>=1.49.1
+rich>=14.1.0
+
+# Dependencies for rich
+markdown-it-py>=4.0.0
+pygments>=2.19.2
+mdurl>=0.1.2
+
