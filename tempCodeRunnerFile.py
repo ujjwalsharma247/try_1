@@ -1,0 +1,1 @@
+vectorized_layer.adapt(text_to_predict)
